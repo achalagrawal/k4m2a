@@ -92,7 +92,7 @@ export async function shareImageModal({uri}: {uri: string}) {
   })
 }
 
-const ALBUM_NAME = 'Bluesky'
+const ALBUM_NAME = 'K4M2A'
 
 export async function saveImageToMediaLibrary({uri}: {uri: string}) {
   const downloadedPath = await downloadImage(uri, String(uuid.v4()), 15e3)

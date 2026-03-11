@@ -100,18 +100,18 @@ function DialogInner({
     if (isMe) {
       if (profile.joinedViaStarterPack) {
         return _(
-          msg`You joined Bluesky using a starter pack ${timeAgoString} ago`,
+          msg`You joined K4M2A using a starter pack ${timeAgoString} ago`,
         )
       } else {
-        return _(msg`You joined Bluesky ${timeAgoString} ago`)
+        return _(msg`You joined K4M2A ${timeAgoString} ago`)
       }
     } else {
       if (profile.joinedViaStarterPack) {
         return _(
-          msg`${profileName} joined Bluesky using a starter pack ${timeAgoString} ago`,
+          msg`${profileName} joined K4M2A using a starter pack ${timeAgoString} ago`,
         )
       } else {
-        return _(msg`${profileName} joined Bluesky ${timeAgoString} ago`)
+        return _(msg`${profileName} joined K4M2A ${timeAgoString} ago`)
       }
     }
   }

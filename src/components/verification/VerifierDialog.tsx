@@ -85,7 +85,7 @@ function Inner({
               },
             ]}
             alt={_(
-              msg`An illustration showing that Bluesky selects trusted verifiers, and trusted verifiers in turn verify individual user accounts.`,
+              msg`An illustration showing that K4M2A selects trusted verifiers, and trusted verifiers in turn verify individual user accounts.`,
             )}
           />
         </View>
@@ -102,7 +102,7 @@ function Inner({
                 <VerifierCheck width={14} />
               </RNText>{' '}
               can verify others. These trusted verifiers are selected by
-              Bluesky.
+              K4M2A.
             </Trans>
           </Text>
         </View>
@@ -119,7 +119,7 @@ function Inner({
             to={urls.website.blog.initialVerificationAnnouncement}
             label={_(
               msg({
-                message: `Learn more about verification on Bluesky`,
+                message: `Learn more about verification on K4M2A`,
                 context: `english-only-resource`,
               }),
             )}

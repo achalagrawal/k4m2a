@@ -34,7 +34,7 @@ export function ChatDisabled() {
         <Text style={[a.text_sm, a.leading_snug, t.atoms.text_contrast_medium]}>
           <Trans>
             Our moderators have reviewed reports and decided to disable your
-            access to chats on Bluesky.
+            access to chats on K4M2A.
           </Trans>
         </Text>
         <AppealDialog />

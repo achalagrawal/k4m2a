@@ -45,9 +45,9 @@ module.exports = function (_config) {
   return {
     expo: {
       version: VERSION,
-      name: 'Bluesky',
-      slug: 'bluesky',
-      scheme: 'bluesky',
+      name: 'K4M2A',
+      slug: 'k4m2a',
+      scheme: 'k4m2a',
       owner: 'blueskysocial',
       runtimeVersion: {
         policy: 'appVersion',
@@ -73,7 +73,7 @@ module.exports = function (_config) {
             'Used to save images to your library.',
           NSPhotoLibraryUsageDescription:
             'Used for profile pictures, posts, and other kinds of content',
-          CFBundleSpokenName: 'Blue Sky',
+          CFBundleSpokenName: 'K4M2A',
           CFBundleLocalizations: [
             'en',
             'an',

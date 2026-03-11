@@ -169,7 +169,7 @@ export function NoAccessScreen() {
                       </Text>
                       <Text style={[textStyles]}>
                         <Trans>
-                          You are accessing Bluesky from a region that legally
+                          You are accessing K4M2A from a region that legally
                           requires us to verify your age before allowing you to
                           access the app.
                         </Trans>
@@ -179,7 +179,7 @@ export function NoAccessScreen() {
                         <Text style={[textStyles]}>
                           <Trans>
                             Unfortunately, your declared age indicates that you
-                            are not old enough to access Bluesky in your region.
+                            are not old enough to access K4M2A in your region.
                           </Trans>
                         </Text>
                       )}
@@ -194,7 +194,7 @@ export function NoAccessScreen() {
                     <Text style={[textStyles]}>
                       <Trans>
                         Unfortunately, the birthdate you have saved to your
-                        profile makes you too young to access Bluesky.
+                        profile makes you too young to access K4M2A.
                       </Trans>
                     </Text>
 
@@ -298,7 +298,7 @@ function AccessSection() {
         {isBlocked ? (
           <Admonition type="warning">
             <Trans>
-              You are currently unable to access Bluesky's Age Assurance flow.
+              You are currently unable to access K4M2A's Age Assurance flow.
               Please{' '}
               <SimpleInlineLinkText
                 label={_(msg`Contact our moderation team`)}

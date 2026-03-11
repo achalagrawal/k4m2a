@@ -1,0 +1,11 @@
+{
+  "installCommand": "yarn install",
+  "buildCommand": "yarn expo export:web",
+  "outputDirectory": "web-build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
