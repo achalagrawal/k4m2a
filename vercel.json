@@ -1,6 +1,6 @@
 {
   "installCommand": "yarn install",
-  "buildCommand": "yarn expo export:web",
+  "buildCommand": "yarn intl:compile && yarn expo export:web",
   "outputDirectory": "web-build",
   "rewrites": [
     {
