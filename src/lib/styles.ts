@@ -28,7 +28,7 @@ export const colors = {
   blue0: '#bfe1ff',
   blue1: '#8bc7fd',
   blue2: '#52acfe',
-  blue3: '#0085ff',
+  blue3: '#333333',
   blue4: '#0062bd',
   blue5: '#034581',
   blue6: '#012561',
@@ -61,7 +61,7 @@ export const colors = {
   green5: '#082b03',
 
   unreadNotifBg: '#ebf6ff',
-  brandBlue: '#0066FF',
+  brandBlue: '#1A1A1A',
   like: '#ec4899',
 }
 

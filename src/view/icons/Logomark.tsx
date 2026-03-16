@@ -1,8 +1,14 @@
-import Svg, {Path, type PathProps, type SvgProps} from 'react-native-svg'
+import Svg, {
+  G,
+  Path,
+  type PathProps,
+  Rect,
+  type SvgProps,
+} from 'react-native-svg'
 
 import {usePalette} from '#/lib/hooks/usePalette'
 
-const ratio = 54 / 61
+const ratio = 115.671 / 77.234
 
 export function Logomark({
   fill,
@@ -15,14 +21,40 @@ export function Logomark({
   return (
     <Svg
       fill="none"
-      viewBox="0 0 61 54"
+      viewBox="0 0 77.234 115.671"
       {...rest}
       width={size}
       height={Number(size) * ratio}>
-      <Path
-        fill={fill || pal.text.color}
-        d="M13.223 3.602C20.215 8.832 27.738 19.439 30.5 25.13c2.762-5.691 10.284-16.297 17.278-21.528C52.824-.172 61-3.093 61 6.2c0 1.856-1.068 15.59-1.694 17.82-2.178 7.752-10.112 9.73-17.17 8.532 12.337 2.092 15.475 9.021 8.697 15.95-12.872 13.159-18.5-3.302-19.943-7.52-.264-.773-.388-1.135-.39-.827-.002-.308-.126.054-.39.827-1.442 4.218-7.071 20.679-19.943 7.52-6.778-6.929-3.64-13.858 8.697-15.95-7.058 1.197-14.992-.78-17.17-8.532C1.068 21.79 0 8.056 0 6.2 0-3.093 8.176-.172 13.223 3.602Z"
-      />
+      <G>
+        <G>
+          <Path
+            fill={fill || pal.text.color}
+            d="M46.688,37.485,1.674,15.53a2.022,2.022,0,0,1-.31-3.9L34.81.111a2.021,2.021,0,1,1,1.316,3.822L7.4,13.824l41.06,20.027a2.022,2.022,0,1,1-1.772,3.634Z"
+            transform="translate(0, 72.474)"
+          />
+          <Rect
+            fill={fill || pal.text.color}
+            width="3.186"
+            height="110.963"
+            rx="1.593"
+            transform="translate(8.042, 0)"
+          />
+        </G>
+        <G transform="translate(3.793, 48.721)">
+          <Path
+            fill={fill || pal.text.color}
+            d="M51.16,41.074,1.835,17.017a2.216,2.216,0,0,1-.341-4.277L38.144.122A2.215,2.215,0,1,1,39.586,4.31L8.109,15.148,53.1,37.093a2.215,2.215,0,1,1-1.941,3.982Z"
+            transform="matrix(0.438, 0.899, -0.899, 0.438, 37.119, 0)"
+          />
+          <Rect
+            fill={fill || pal.text.color}
+            width="3.322"
+            height="75.307"
+            rx="1.661"
+            transform="matrix(0.446, 0.895, -0.895, 0.446, 71.959, 15.187)"
+          />
+        </G>
+      </G>
     </Svg>
   )
 }
